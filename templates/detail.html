@@ -1,0 +1,39 @@
+<!--
+<ion-header-bar class='bar-dark'>
+    <h2 class='title'>More Info</h2>
+</ion-header-bar>
+-->
+<ion-view view-title="More Info">
+    <ion-content>
+        <ion-list class="list-inset">
+<!--            hide this titles if there is an image-->
+            <ion-item class="item-text-wrap"
+                      ng-repeat="clinical in clinicals|filter: {title:whichCondition}" >
+
+                <h1 ng-bind-html ="clinical.title" ></h1>
+
+                <h2 ng-show=!clinical.image ng-bind-html ="clinical.summary"></h2><ng-show=!clinical.image hr/>
+
+                <h3 ng-show=!clinical.image>Clinical Symptoms</h3>
+                <h2 ng-show=!clinical.image ng-bind-html ="clinical.symptoms"></h2><ng-show=!clinical.image hr/>
+
+                <h3 ng-show=!clinical.image >Clinical Signs</h3>
+                 <h2 ng-show=!clinical.image ng-bind-html ="clinical.signs"></h2><ng-show=!clinical.image hr/>
+
+                <h3 ng-show=!clinical.image >When to admit</h3>
+                <h2  ng-show=!clinical.image ng-bind-html ="clinical.admit"></h2><ng-show=!clinical.image hr/>
+
+                <h3 ng-show=!clinical.image >Admission</h3>
+                <h2  ng-show=!clinical.image ng-bind-html ="clinical.required"></h2><ng-show=!clinical.image hr/>
+
+                <h3  ng-show=!clinical.image >Red Flags</h3>
+                <h2  ng-show=!clinical.image ng-bind-html ="clinical.flags"></h2>
+<!--                if there is an image attribute then show the laryngectomy pathway-->
+                <div ng-show=clinical.image ng-repeat = "image in clinical.src">
+                  <img  class="path"  ng-src="{{image}}"/>
+                </div>
+
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

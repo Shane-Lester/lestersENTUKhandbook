@@ -1,0 +1,414 @@
+{
+    "clinical":
+        [
+            {"title":"Acute Tonsillitis",
+             "shortname":"tonsillitis",
+             "summary":"Most commonly seen in children|adolescents but may occur in adults.",
+             "symptoms":"Sore throat<br/> Odynophagia +|- dysphagia<br/> Pyrexia<br/> Referred otalgia",
+             "signs":"Pyrexia<br/> Cervical lymphadenopathy<br/> Hyperaemic tonsils with pus and debris in crypts",
+             
+             "admit":"Unable to eat and drink despite maximal analgesia<br/>Airway concerns",
+             "required":"Full clerking to include cardiorespiratory and abdominal examination<br/> FBC, U&E, LFT, PB<br/> IV access and IVT<br/> Regular paracetemol and ibuprofen plus regular|prn codeine phosphate<br/> IV benzylpenicillin (or clarithromycin if penicllin allergic)<br/> Single dose of dexamethasone if airway concerns|severe pain despite maximal analgesia",
+             "flags":"Unilateral tonsillitis especially in adult ?underlying malignancy<br/> Severe symptoms of sore throat,odynophagia but oropharynx normal ?supraglottitis<br/> Unilateral neck swelling|torticollis ?neck space abscess"
+             
+                },
+            {"title":"Peritonsillar Abscess (quinsy)",
+             "summary":"Collection of pus in the peritonsillar space",
+             "symptoms":"Usually starts with symptoms of tonsillitis<br/> Increasing unilateral pain.",
+             "signs":"As for tonsillitis<br/> Muffled voice “hot potato”<br/> Drooling<br/> Trismus<br/> Unilateral peritonsillar swelling with deviated uvula",
+             "admit":"Admit all patients with peritonsillar abscess.",
+             "required":"As for tonsillitis<br/> Incision and drainage of abscess under local anaesthetic.",
+             "flags":"As for tonsillitis."
+                },
+            {"title":"Post tonsillectomy pain|infection",
+             "summary":"First 7 days following surgery can be extremely painful<br/> Slough in tonsil fossae is normal, does not necessarily mean infection.",
+             "symptoms":"Usually present in first week following surgery<br/> Unable to eat and drink<br/> Halitosis.",
+             "signs":"Sloughy tonsil beds (usual post tonsillectomy appearance)<br/> Pyrexia.",
+             "admit":"Unable to eat or drink despite adequate analgesia<br/> Evidence of bleeding.",
+             "required":"Full patient clerking<br/> FBC, U&E, (G&S if any bleeding)<br/> IV access and IVT<br/> Regular paracetemol, ibuprofen and codeine phosphate (prn morphine sulphate 0.1mg|kg QDS for children)<br/> IV co-amoxiclav.",
+             "flags":"Nil"
+                },
+            {"title":"Post tonsillectomy haemorrhage",
+             "summary":"5% of patients will have a post operative haemorrhage<br/> 1% of patients will require return to theatre<br/> Can occur any time up to 14 days post surgery<br/> Can be life threatening-do not under estimate. Even if you are informed that the patient is not actively bleeding you must attend these patients immediately<br/> Ensure that A&E have gained adequate IV access and sent the necessary bloods.",
+             "symptoms":"Variable in severity- single, small amount of blood spat out to actively bleeding requiring immediate transfer to theatre.",
+             "signs":"May have normal post tonsillectomy appearance<br/> +|- clot in tonsil fossa<br/> Actively spitting out blood.",
+             "admit":"Do not delay in seeing these patients<br/> Admit all post tonsillectomy patients.",
+             "required":"Inform middle grade doctor on call<br/> Full clerking<br/> Large bore IV access<br/> FBC, U&E, coag, G&S (X-match if appropriate)<br/> Regular analgesia-paracetemol, ibuprofen and codeine (prn morphine sulphate for children)<br/> Iv co-amoxiclav<br/> Hydrogen peroxide gargles 3 hourly (in children ensure they are able to gargle before prescribing).",
+             "flags":"Any bleeding, especially in children."
+                },
+            {"title":"Food bolus|foreign body ingestion",
+             "summary":"Potentially life threatening<br/> History is very important.",
+             "symptoms":"Dysphagia following ingestion of food|foreign body<br/> Spitting out saliva<br/> Discomfort.",
+             "signs":"May not be any<br/> Spitting out saliva intermittently.",
+             "admit":"Complete dysphagia<br/> Non-organic|Sharp object|battery ingestion",
+             "required":"Full clerking<br/> Important to ascertain what has been swallowed<br/> if it is meat was there any bone in it? In a child-could it have been a button battery? Any history of dysphagia|similar episodes-? Underlying malignancy<br/> Small test drink of water-how quickly water is regurgitated will help ascertain level of obstruction<br/> CXR|soft tissue neck XR if appropriate<br/> IV access and IVT<br/> Keep NBM<br/> Bloods if required ie co-morbidities<br/> IV buscopan- 2 doses 40 minutes apart<br/> Book onto Morpheus if requires removal under GA.",
+             "flags":"If sharp object|bone|battery inform SpR immediately."
+                },
+            {"title":"Supraglottitis|epiglottitis",
+             "summary":"Referrall should be taken by middle grade doctor on call<br/> Patients can deteriorate very quickly.",
+             "symptoms":"Usually short history of sore throat<br/> Rapid deterioration with hoarse voice, odynophagia, drooling and stridor",
+             "signs":"If present early may not have stridor. Symptoms may appear to outweigh signs on general examination<br/> Imperative that don’t discharge without excluding impending airway problem +/- tachycardia, pyrexia, tachyopnoea<br/> Drooling<br/> Look generally unwell<br/> Examination of oropharynx normal<br/> FNE- supraglottic oedema/epiglottitis",
+             "admit":"All patients to be admitted<br/> May require admission to HDU or transfer to theatre for intubation/tracheostomy",
+             "required":"Contact SpR for all cases of supraglottitis/epiglottitis immediately<br/> Patients should be seen in A&E and not in casualty clinic or on ward<br/> Full clerking (at appropriate time)<br/> If airway compromise-Nebulised adrenaline (1ml of 1:1000 with 10ml water) and oxygen<br/> IV dexamethasone 200mg<br/> may require heliox<br/> FNE-discuss with SpR before undertaking<br/> IV access and IVT<br/> FBC, U&E, CRP, +/-blood cultures if pyrexial<br/> IV abx-ceftriaxone<br/> IV dexamethasone (200mg TDS)",
+             "flags":"All patients are serious"
+                },
+            {"title":"Otitis externa",
+             "summary":"Inflammation of the external ear canal, very rare in children<br/> Most managed in casualty clinic or routine outpatient appointments<br/> Rarely required to be seen out of hours.",
+             "symptoms":"Itching and/or pain (can be severe) of the ear<br/> Otorrhoea<br/> Decreased hearing +/-pain and swelling of pinna/face.",
+             "signs":"Erythema and oedema of external canal<br/> Tender on pressure on tragus<br/> +/- discharge from canal +/- pinna cellulitis.",
+             "admit":"Rarely require admission<br/> Severe pain despite maximal analgesia<br/> Pinna/facial cellulitis<br/> Concerns of necrotizing osteomyelitis (see below).",
+             "required":"History-duration, treatment by GP, ?diabetic, provoking fx (swimming, holiday abroad, cotton buds)<br/> Assessment of ear and suction clearance if required<br/> Swab (not for 1st presentation unless previous recent rx by GP)<br/> May require pope wick insertion if ear canal very oedematous<br/> Commence topical antibiotic drops<br/> Give patient ear care advice<br/> One follow up in casualty clinic (if requires further follow ups these should be in assigned consultant clinics –ENT reception will arrange).",
+             "flags":"Necrotising osteomyelitis aka “malignant otitis externa” –see below."
+                },
+            {"title":"Necrotising osteomyelitis aka 'malignant otitis externa'",
+             "summary":"Osteomyelitis of temporal bone<br/> Most commonly seen in diabetic patients or immunocompromised patients<br/> Organism is usually pseudomonas.",
+             "symptoms":"similar to OE but pain is very severe<br/> immunocompromised or diabetic.",
+             "signs":"As for otitis externa<br/> often granulation tissue in floor of ear canal at bony cartilaginous junction<br/> May develop/present with cranial nerve palsies – VII, IX, X, XI.",
+             "admit":"All patients require admission and long term antibiotics.",
+             "required":"Full clerking<br/> Assessment of ear<br/> Swab ear<br/> FBC, U&E, CRP, glucose (if not known to be diabetic)<br/> Commence ciprofloxacin drops (2 drops BD into affected ear)<br/> Antibiotic advice from infectious diseases<br/> Analgesia<br/> Close monitoring of BM’s if diabetic and referral to diabetic nurse if not well controlled.",
+             "flags":"Neurological signs- escalate to senior."
+                },
+            {"title":"Acute mastoiditis",
+             "summary":"Acute infective process of mastoid air cells secondary to acute otitis media (AOM)<br/> Rare in adults<br/> Most commonly seen in infants and young children.",
+             "symptoms":"Severe otalgia, pyrexia and hearing loss<br/> May have started with URTI<br/> Parents may have noticed protruding ear.",
+             "signs":"Child appears miserable<br/> Protruding ear<br/> Tympanic membrane consistent with AOM-red, bulging<br/> Erythema behind pinna, extremely tender to touch<br/> May have fluctuant swelling behind pinna<br/> If intracranial extension may have signs of meningism/altered conscious level.",
+             "admit":"All patients with acute mastoiditis must be admitted.",
+             "required":"Inform SpR<br/> Full clerking<br/> FBC, CRP, blood cultures (if pyrexial)<br/> IV access and IV Abx<br/> Analgesia<br/> Mark out erythema with skin marker if child allow<br/> If fluctuant swelling/signs of meningism keep NBM.",
+             "flags":"Neurological signs- may need scan."
+                },
+            {"title":"Foreign body nose",
+             "summary":"More common in boys, most common age is 2 years<br/> Important to ascertain what foreign body is ie BUTTON BATTERY<br/> Possibility of nasal FB’s being aspirated if not removed.",
+             "symptoms":"Seen to insert FB into nose/informs someone they they have done it. Unilateral rhinorrhoea.",
+             "signs":"FB may be visible on inspection<br/> Unilateral rhinorrhoea<br/> Decreased air entry unilaterally<br/> May not be any signs.",
+             "admit":"Unable to remove FB in clinic and requires removal under GA (ALL FB nose are removed as an emergency).",
+             "required":"Attempt removal in clinic-usually only get one chance to attempt removal in young children<br/> If unable to remove admit for removal under GA<br/> Clerk<br/> Keep NBM<br/> Inform SPR<br/> Add to Morpheus/speak to Bev Mckinstry regarding availability on theatre lists.",
+             "flags":"If ANY SUSPICION of a button battery, must be removed IMMEDIATELY."
+                },
+            {"title":"Fractured nose",
+             "summary":"Usually referred by A&E at time of injury<br/> best time to see patient is 5-7 days post injury when swelling has settled<br/> Manipulation will only be able to correct deformity that has occurred as result of the latest injury.",
+             "symptoms":"Altered shape of nose following trauma<br/> May have nasal obstruction<br/> If seen acutely may have epistaxis.",
+             "signs":"Deviation of nasal bridge with associated bruising +/- swelling<br/> May have decreased air entry due to septal deviation or septal haematoma (see below)<br/> Depending on trauma sustained may have other facial fractures/base of skull #/neck injury-important not missed.",
+             "admit":"When there is other trauma or uncontrolled epistaxis",
+             "required":"Good history – often have to write police statements<br/> Clear documentation of findings<br/> Check for septal haematoma and document that this has been done<br/> Check for other facial fractures/base of skull # (haemotympanum, panda eyes, post auricular bruising)<br/> If too much bruising and swelling to be able to assess nasal deformity ask patient to reattend a few days later<br/> If evidence of deviation of nasal bridge offer patient manipulation of nasal bones (MUA) under local anaesthetic (GA reserved for children, patients who really don’t want attempt under LA and if it  felt a better cosmetic outcome could be achieved under GA after LA been attempted). Ensure consent form is signed by patient<br/> If patient to have MUA under GA, clerk, consent and send to Bev Mckinstry for date for surgery-must be within 2 weeks of injury.",
+             "flags":"Ensure other injuries not missed including septal haematoma."  
+                             },
+
+            {"title":"Septal haematoma",
+             "summary":"Collection of blood under perichondrium of nasal septum<br/> If not treated acutely can lead to septal abscess which can result in meningitis and cavernous sinus thrombosis. More commonly delayed treatment leads to necrosis of the cartilaginous septum which results in cosmetic deformity of the nose.",
+             "symptoms":"History of trauma to the nose<br/> Nasal obstruction-may not complain of this<br/> If delayed presentation (abscess has developed)  may complain of pyrexia and pain.",
+             "signs":"Fluctuant swelling of nasal septum (use Jobson horn to palpate)-differentiate from deviated septum<br/> If abscess developed may have erythema over nasal bridge and pyrexia.",
+             "admit":"Admit all patients with septal haematoma or septal abscess.",
+             "required":"Full clerking<br/> If signs of abscess: FBC, blood cultures if pyrexial<br/> Keep NBM and add to Morpheus for 'Incision and drainage of septal haematoma/abscess.'<br/> Write up IVT<br/> Start co-amoxiclav (unless allergic)<br/> Inform middle grade doctor on call.",
+             "flags":"Neurological signs. Sepsis."
+                },
+            {"title":"Periorbital Cellulitis",
+             "summary":"Inflammation and infection of the tissue and skin surrounding the eye<br/> Most commonly seen in children<br/> Can lead to loss of vision if abscess causes pressure on optic nerve-90 minute window to take patient to theatre to drain abscess.",
+             "symptoms":"Often a history of recent URTI<br/> Increasing redness and swelling around the eye<br/> Pain.",
+             "signs":"Swelling of upper/lower/both eyelids +/-proptosis +/- decreased ocular movement or pain on movement of eye +/- scleral injection and chemosis +/-decreased visual acuity-red colour vision first change seen +/- pyrexia +/-nasal discharge.",
+             "admit":"Admit all patients with periorbital cellulitis except for the very mild cases-middle grade doctor to make this decision.",
+             "required":"Inform middle grade doctor immediately<br/> Specific documentation of presence/absence of  proptosis, movements of eye, red colour vision, scleral injection. Clear documentation of appearance of eye<br/> Nasoendoscopy in adults<br/> FBC, CRP, blood cultures if pyrexial<br/> Nasal swab if evidence of mucopus<br/> IV antibiotics- co-amoxiclav<br/> Otrivine binasally QDS<br/> Betnesol drops 2 drops (1 drop in children) binasally BD<br/> Referral for ophthalmology assessment<br/> CT scan of sinuses/orbits if required-middle grade doctor to make decision.",
+             "flags":"Always inform senior."
+                },
+            {"title":"Epistaxis",
+             "summary":"Very common presentation to ENT. Nasal packs are very uncomfortable so think before you insert them.",
+             "symptoms":"Nose bleeding! May be history of trauma/commencement of new drugs.",
+             "signs":"Nose bleeding-may vary from a few spots to severe active bleeding despite first aid therapies<br/> May be hypertensive/signs of chronic liver disease/signs of trauma.",
+             "admit":"All patients with a nasal pack in place are admitted.",
+             "required":"Full history and clerking<br/> Side it started, duration, provoking factors<br/> PMH:hypertension, cardiac (stents (what type, when it was inserted), prosthetic heart valves (which valve, metallic/tissue)), liver disease<br/> DH: anticoagulants/antiplatelets<br/> SH: alcohol intake, drug use<br/> Examine nose for origin of bleeding<br/> Silver nitrate cautery –one side only<br/> Insertion of nasal pack if unable to see site of bleeding and active bleeding not settling with simple measures. Insert smallest pack necessary to arrest bleeding +/- posterior packing if required<br/> If admitting patient<br/> FBC, U&E, Coag/INR, G&S (if transferred from another hospital G&S must be repeated when arrive)<br/> IV access<br/> Withhold warfarin if INR above therapeutic ratio<br/> If patient being discharged from A&E/cas clinic/ward<br/> First aid advice (pinch tip of nose for 10 mins>10 mins>A&E if still bleeding, frozen peas to forehead, tip head forward)<br/> Avoid stooping, straining, heavy lifting, no nose blowing, sneeze with mouth open, avoid hot foods/drinks/showers for few days<br/> Give naseptin cream (check no allergy to peanuts)<br/> apply binasally, BD for 2 weeks.",
+             "flags":"Unilateral “nasal polyps” with associated epistaxis beware of malignancy-polyps don’t ususally bleed<br/> Recurrent unilateral epistaxis-make sure patient has thorough nasoendoscopy when bleeding settled to exclude malignancy."
+                },
+            {"title":"Bells Palsy",
+             "summary":"LMN facial nerve palsy<br/> diagnosis of exclusion.",
+             "symptoms":"LMN facial weakness<br/> May have short history of preceding otalgia<br/> Ensure you ask about history of trauma/ear symtoms.",
+             "signs":"LMN weakness. May have vesicles on pinna/canal if Ramsay Hunt synadrome.",
+             "admit":"No reason to admit patients with Bell’s palsy.",
+             "required":"Full history in order to exclude other causes of LMN facial palsy<br/> Ear symptoms-OME, cholesteatoma<br/> Neck lump-parotid lump. Examination of facial palsy<br/> Ensure LMN palsy<br/> Clear documentation of severity/House Brackmann scale<br/> Examination of: Ears-exclude middle ear abnormality-AOM, cholesteatoma<br/> Neck-exclude parotid lump (CANCER)<br/> Prescribe prednisolone (1mg/kg up to 60mg OD for 7/7-check for contraindications to steroids and document)<br/> Prescribe acyclovir 800mg five times/day 7/7<br/> Prescribe lacrilube for affected eye nocte<br/> Advise regarding eye care.",
+             "flags":"Parotid tumour or middle ear disease."
+                },
+            {"title": "Laryngectomy Valve Pathway",
+             "image":true,
+             "src":["img/page0001.jpg","img/page0002.jpg"]
+                
+            }
+     
+        ],
+    "admin":[
+        
+        {"title":"Consultants",
+         "data":[
+             {"title":"Mr Derek Bosman"},
+             {"subtitle":"Paediatrics"},
+             {"heading":"Secretary"},
+             {"info1":"Lisa Johnson"},
+             {"info2":"54029"},
+              {"item":"<hr>"},
+              {"title":"Miss Kate Blackmore"},
+             {"subtitle":"Paediatrics"},
+             {"heading":"Secretary"},
+             {"info1":"Emma Hetherington"},
+             {"info2":"54040"},
+              {"item":"<hr>"},
+            {"title":"Mr Noweed Ahmad"},
+             {"subtitle":"Otology and neuro-otology; botox"},
+             {"heading":"Secretary"},
+             {"info1":"Emma Hetherington"},
+             {"info2":"54040"},
+              {"item":"<hr>"},
+             {"title":"Mr Anirvan Banerjee"},
+             {"subtitle":"Otology & neuro-otology"},
+             {"heading":"Secretary"},
+             {"info1":"Julie Prince "},
+             {"info2":"54046"},
+              {"item":"<hr>"},
+             {"title":"Mr Shane Lester"},
+             {"subtitle":"Head & Neck; Voice"},
+             {"heading":"Secretary"},
+             {"info1":"Leslie Cronin + Mandy Brooksbank"},
+             {"info2":"54023"},
+              {"item":"<hr>"},
+             {"title":"Mr David Lowe"},
+             {"subtitle":"Rhinology"},
+             {"heading":"Secretary"},
+             {"info1":"Julie Prince"},
+             {"info2":"54046"}
+                    ]
+        },
+       { "title":"SAS doctors",
+        "data":[
+             {"title":"Satpal Singh"},
+             {"subtitle":"Rhinology,allergy"},
+             {"heading":"Secretary"},
+             {"info1":"Ann Jamieson"},
+             {"info2":"52791"},
+              {"item":"<hr>"},
+             {"title":"Shankar Ganesh"},
+             {"subtitle":""},
+             {"heading":""},
+             {"info1":""},
+             {"info2":""},
+              {"item":"<hr>"},
+             {"title":"Mo Al-Damlooji"},
+             {"subtitle":""},
+             {"heading":""},
+             {"info1":""},
+             {"info2":""}
+
+        ]
+       },
+        {"title":"Phone Numbers",
+         "data":[
+             {"title":"ENT OPD reception"},
+             {"subtitle":"54033"},
+             {"item":"<hr>"},
+             
+              {"title":"ENT casualty clinic"},
+             {"subtitle":"54079"},
+             {"item":"<hr>"},
+
+             {"title":"ENT doctors office"},
+             {"subtitle":"56840"},
+             {"item":"<hr>"},
+
+             {"title":"Ward 22 (paeds surgical ward)"},
+             {"subtitle":"54522"},
+             {"item":"<hr>"},
+
+             {"title":"Ward 35 (ENT adult)"},
+             {"subtitle":"54535/56336"},
+             {"item":"<hr>"},
+
+             {"title":"Paed surgical day unit"},
+             {"subtitle":"54927/55953"},
+             {"item":"<hr>"},
+
+             {"title":"Surgical admissions unit (female)"},
+             {"subtitle":"54603"},
+             {"item":"<hr>"},
+             
+             {"title":"Surgical admissions unit (male)"},
+             {"subtitle":"54602"},
+             {"item":"<hr>"},
+             
+             {"title":"Theatre 19 (paediatric theatre)"},
+             {"subtitle":"55753"},
+             {"item":"<hr>"},
+             
+             {"title":"Theatre 20 (ENT theatre)"},
+             {"subtitle":"55815"},
+             {"item":"<hr>"},
+             
+             {"title":"Theatre 21 (day case theatre)"},
+             {"subtitle":"55272"},
+             {"item":"<hr>"},
+             
+             {"title":"Theatre 22 (daycase theatre"},
+             {"subtitle":"54603"},
+             {"item":"<hr>"},
+             
+             {"title":"Theatre 27 (day case theatre)"},
+             {"subtitle":"55273"},
+             {"item":"<hr>"},
+             
+             {"title":"Bev Mckinstry & Sonia Hannant (waiting list)"},
+             {"subtitle":"54063"},
+             {"item":"<hr>"},
+             
+             {"title":"Haematology lab"},
+             {"subtitle":"55691"},
+             {"item":"<hr>"},
+             
+             {"title":"Biochemistry lab"},
+             {"subtitle":"54371"},
+             {"item":"<hr>"},
+             
+             {"title":"Blood bank"},
+             {"subtitle":"52630"},
+             {"item":"<hr>"},
+             
+             {"title":"Radiology"},
+             {"subtitle":"54823"},
+             {"item":"<hr>"},
+             
+             {"title":"Histology"},
+             {"subtitle":"54383"},
+             {"item":"<hr>"},
+             
+             {"title":"IT helpdesk"},
+             {"subtitle":"52525"},
+             {"item":"<hr>"},
+             
+             {"title":"Library"},
+             {"subtitle":"54820"},
+             {"item":"<hr>"}                   
+             
+         ]},
+        {"title": "Admininstration",
+         "data":[
+             {"info1":"You each have an inbox in the doctors office where any administrative work and memo’s will be placed. It is important that you check this on a daily basis. Please also regularly check the e-mail account for which you have given us details and respond to e-mails promptly."},
+              {"item":"<hr>"},
+             {"title":"Weekly rota/annual leave/study leave"},
+             {"info1":"The weekly rota is written by Satpal Singh and is distributed on a weekly basis (Thursday). Your timetable will include:"},
+             {"info2":"-Ward cover"},
+             {"info2":"-Casualty clinic"},
+             {"info2":"-Pre-assessment clinic"},
+             {"info2":"-Study/teaching"},
+             {"info2":"-On call"},
+               {"item":"<hr>"},
+
+             {"info1":"All annual and study leave requests should be sent to Satpal Singh who will confirm if the leave can be granted. It is important that you get together as a group and discuss leave at the beginning of the placement so that you are not all trying to take leave towards the end of the post."},
+              {"info2":"The on call rota can be found on the intranet. This is organised by Lorraine Grayson. Please contact her with any queries."},
+              {"item":"<hr>"}
+             
+         ]},
+        {"title":"Your Rotas",
+         "data":[
+             {"info1":"This is the basic file"}
+         ]},
+        {"title":"Ward",
+         "data":[
+             {"title":"The two main wards for ENT patients are:"},
+
+             {"subtitle":"Ward 35-adult ward."},
+             {"info1":"This ward is shared with maxo-facial surgery and plastic surgery. There are 26 beds of which 5 are HDU beds."},
+              {"item":"<br>"},
+             {"info1":"Ward 35 has a specially equipped treatment room with a microscope. All patients requiring microsuction of the ears or other procedures should be treated in here and not taken down to out patients. It may be necessary to have a nurse/health care assistant with you to help. Please remember that they are busy and you may have to wait till they are free to assist you."},
+               {"item":"<br>"},
+             {"subtitle":"Ward 22- paediatric ward."},
+             {"info1":"This is the paediatric surgical ward where our elective and emergency patients are admitted. (If ward 22 is full patients may be admitted to ward 21)."},
+                            {"item":"<br>"},
+             {"subtitle":"Surgical admissions unit"},
+             {"info1":"Separate male and female unit. The unit accommodates the day case patients and also has a 23 hour stay facility. The majority of our adult surgical patients are admitted here.."},
+                            {"item":"<br>"},
+              {"subtitle":"Paediatric Surgical Admission unit."},
+             {"info1":"This is a day case unit only. Children who are not fit for discharge at the end of the day may be transferred to the ward for overnight observation."},
+                            {"item":"<br>"},
+             {"info2":"Due to bed pressures there are often outlying patients on other wards, particularly in the winter. It is imperative that these patients are seen EVERY DAY on the ward round."},
+             {"item":"<br>"}
+         ]},
+        
+        {"title":"Ward Duties",
+         "data":[
+             {"info1":"The morning ward round starts at 0800 prompt and attendance is compulsory. At the weekend the ward round may start later."},
+             {"info2":"An evening board round takes place after clinic/theatre with the on call consultant and middle grade doctor.<br>There is a handover sheet that is stored on the PC on ward 35 and this must be regularly updated throughout the day. It is imperative that it has been updated for the morning ward round."},
+                          {"item":"<br>"},
+             {"info1":"All consultations/investigations/procedures etc must be documented in the patients notes. All documentation must be legible and all entries must be accompanied by the doctors name/date/time/designation and GMC number."},
+             {"info2":"All blood results and investigations MUST be written in the patient notes and not just on the hand over sheet."},
+             {"item":"<br>"},
+             {"info1":"Please ensure that your documentation is filed appropriately in the notes-this is your responsibility.Please ensure that all discharge summaries are completed first thing in the morning. Where it is possible to pre-empt a discharge the day before please complete the summary at this stage so that discharge is not delayed."},
+                          {"item":"<br>"},
+
+             {"info1":"Morbidity and mortality data collection is your responsibility under the guidance of Miss Blackmore’s SpR. On the handover sheet there is a tick box for complications. This must be ticked for all morbidity and mortalities and will be presented at the clinical governance meetings. It is often difficult to obtain the notes after the patient has been discharged so please record all the relevant information in the box that pops up on the handover record."}
+         ]},
+        {"title":"Education",
+         "data":[
+             {"title":"Clinical/Educational supervisors"},
+              {"item":"<hr>"},
+             {"info1":"You will each be assigned a clinical (and/or educational) supervisor for your placement in the department. It is essential that you organise an appointment to see them in the first 2 weeks of the post."},
+              {"item":"<hr>"}
+             
+         ]},
+        {"title":"On Call",
+         "data":[
+              {"info1":"The first tier doctors are resident when on duty and on call. There is an on call bleep (4012) which must be carried at all times and responded to straight away."},
+                          {"item":"<br>"},
+             {"info1":"Patients may be referred from GP’s, other departments within The James Cook University Hospital or from other hospitals. It is essential that if accepting a referral from another hospital that the patient is transferred to an appropriate, safe receiving area. Any patient that is actively bleeding or has an upper airway problem must be seen in Accident and Emergency. "},
+                  {"item":"<br>"},
+             {"info1":"If you are informed by A&E that the department is busy/you are unable to see the patient in A&E yet the patient’s condition demands they are seen in A&E please escalate the referral to the on call middle grade or consultant. "},
+                  {"item":"<br>"},
+             {"info1":"There are certain presenting symptoms/signs where the middle grade should take the referral –please re-direct the referring doctor to the appropriate person. "},
+                  {"item":"<br>"},
+             {"info1":"DO NOT see any patients in the ENT department out of hours or at the weekend. This is for yours and the patient’s safety."},
+             {"info2":"A&E referrals from JCUH MUST BE RESPONDED TO/ATTENDED TO WITHIN 30 MINUTES"},
+                  {"item":"<br>"},
+             {"info1":"All patients that are admitted must have a full clerking by the ENT doctor. The patient’s regular medication must be written up by the admitting doctor and a VTE assessment MUST be undertaken and documented."},
+             {"info2":"If a patient is commenced on antibiotics duration of treatment must be documented on the cardex.The on call middle grade doctor must be informed of all admissions and it is important to keep them updated. "},
+                  {"item":"<br>"}
+         ]},
+        {"title":"Casualty Clinic",
+         "data":[
+              {"info1":"There is a daily casualty clinic that takes place in the outpatient department. This is led by the first tier doctors and the specialist nurses.<br>The clinic runs from 1000-1200 and 1400-1600 Monday to Friday. There is a nurse in the clinic to assist. "},
+                  {"item":"<br>"},
+             {"info1":"Patients seen in the clinic are referred from GP’s, A&E and other specialities."},
+             {"item":"<strong> IT IS NOT A WALK IN CLINIC.</strong>"},
+             {"info1":"Patients self-referring should be politely informed of the policy and given advice on where they should seek help from. <br>It is essential that only appropriate cases are seen in the casualty clinic in order to maintain patient safety.  Any patients with active bleeding or upper airway problems MUST be seen in accident and emergency. "},
+                  {"item":"<br>"},
+             {"info1":"Doctors trying to refer patients with chronic conditions should be asked to either refer through choose and book or fax a referral. This will be seen by the consultant on call (not necessarily acutely) and triaged to an appropriate outpatient clinic."},
+             {"info2":"Patients seen in the casualty clinic can have ONE REVIEW in the clinic. If they need to be seen again they must be seen in one of the assigned consultant/middle grade outpatient clinics-reception will organise.<br><br>If you require any help or advice please contact the on call middle grade doctor.Again it is important that there is legible and clear documentation for all patients attending the casualty clinic. "},
+                  {"item":"<br>"},
+             {"item":"<strong><u>These patients should be seen urgently:</u></strong><br>"},
+             {"item":"<u>Ear</u>"},
+             {"item":"Acute mastoiditis<br>Seventh nerve palsy with ear sx/signs or foll head injury<br>Pinna cellulitis<br>Sudden sensorineural hearing loss<br>Organic/chemical foreign body ear <br>"},
+                  {"item":"<br>"},
+             {"item":"<u>Nose</u><br>Actively bleeding/packed epistaxis<br>Septal haematoma<br>Periorbital cellulitis<br>Foreign body nose<br> "},
+                  {"item":"<br>"},
+             {"item":"<u>Throat</u><br>Stridor-<strong>Middle grade doctor to take call</strong><br>Post tonsillectomy bleed<br>Foreign body airway-<strong>Middle grade doctor to take call</strong><br>Blunt and sharp injury to neck<br>Tonsillitis-unable to eat and drink<br>Infected neck lump<br>Quinsy/peritonsillar abscess<br>Tracheostomy problems-inform middle grade<br> "},
+                  {"item":"<br>"},
+             {"item":"<u>General</u><br>Food bolus obstruction<br>Facial cellulitis<br>Post op infections<br><br>There is further information in this booklet on how to manage some of these conditions.<br> "},
+                  {"item":"<br>"}
+         ]},
+        {"title":"Outpatient clinics",
+         "data":[
+             {"item":"You are encouraged to attend outpatient clinics as part of your training. If you have specific clinics you would like to attend please discuss with Satpal Singh who will incorporate it into your weekly timetable where possible. Please be sensible about this and ensure that everyone gets the opportunity to attend clinics.<br><br>Clinics run on a daily basis usually starting at 0900 and 1400 although some clinics may start earlier. If you would like to attend a clinic please check with the clinician undertaking it beforehand (there may be trainees from other specialities or medical students sitting in). If however you find you have an unexpected spare half hour/ hour please feel free to come to clinic.<br><br>There are general ENT clinics and also specialist clinics. "},
+                  {"item":"<br>"},
+             {"item":"Specialist clinics include:<br><br>-Paediatric voice, trachesotomy and drooling<br>-Paediatric Cleft <br>-Rhinology<br>-Cochlear implant<br>-Paediatric hearing loss<br>-Two week wait <br>-Balance disorders<br>-Botox<br>-Head and neck<br>-Tracheostomy clinics"},
+                  {"item":"<br>"},
+             {"item":"Please check the timetable in the ENT reception for when these clinics are running. "},
+                  {"item":"<br>"}
+            
+         ]},
+        {"title":"Theatres",
+         "data":[
+             {"info1":"You are also encouraged to come to theatre as part of your training regardless of your future career aspirations. Being able to explain to a patient the process of tonsillectomy/grommets can be very helpful for future GP’s."},
+             {"info2":"The following theatres are used for ENT:"},
+             {"item":"-Theatre 19-paediatric theatre<br>-Theatre 20 & 17-ENT theatre<br>-Theatre 22,21,27- day case theatres<br>-Main theatre sessions start at 0900 (Mr Banerjee’s list starts at 0830 on a Tuesday) and 1330.<br><br>Day case theatre sessions start at 0800 and 1330."},
+                  {"item":"<br>"}
+             
+         ]},
+        {"title":"Teaching|Research",
+         "data":[
+             {"item":"You will be excused from your duties to attend any mandatory teaching i.e. GP teaching, foundation programme generic skills as long as there are enough doctors to cover the department in your absence. Please ensure that you discuss the dates in plenty of time with Satpal Singh.<br><br>There is regular on the job teaching in the assigned casualty clinic teaching sessions. We also have ad hoc departmental teaching at lunch times.<br><br>Sit in outpatient clinics and theatre sessions will also provide valuable teaching.<br><br>There is a clinical governance meeting on a bi-annual basis that has compulsory attendance if you are on duty.<br><br>We encourage all our first tier doctors to get involved in audit and research. Please discuss with your clinical/educational supervisor at your induction meeting. All clinical audit registration forms should be sent to Miss Blackmore."},
+                  {"item":"<br>"}
+         ]}
+        
+    ]
+}

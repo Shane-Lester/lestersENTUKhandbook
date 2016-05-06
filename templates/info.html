@@ -1,0 +1,33 @@
+<!--
+<ion-header-bar class='bar-dark'>
+    <h2 class='title'>Information</h2>
+</ion-header-bar>
+-->
+<ion-view view-title="Information">
+    <ion-content>
+        <ion-list class="list-inset">
+            <ion-item class="item-text-wrap"
+                      ng-repeat="item in department|filter: {title:whichCondition}" >
+
+                <h1 ng-bind-html ="item.title" ></h1>
+                <div ng-repeat="info in item.data">
+
+
+                    <h3>{{info.title}}</h3>
+                    <h2>{{info.subtitle}}</h2>
+                    <h3>{{info.heading}}</h3>
+                    <h2>{{info.subheading}}</h2>
+                    <p>{{info.info1}}</p>
+                    <p>{{info.info2}}</p>
+                    <h2><strong>{{info.bold}}</strong></h2>
+                    <h2><u>{{info.underline}}</u></h2>
+                    <h2>{{info.list}}</h2>
+                    <p ng-bind-html="info.item"></p>
+
+                </div>
+            </ion-item>
+
+
+        </ion-list>
+    </ion-content>
+</ion-view>

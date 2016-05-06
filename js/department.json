@@ -1,0 +1,319 @@
+{
+    "department":[
+
+        {"title":"Consultants",
+         "data":[
+             {"title":"Mr Derek Bosman"},
+             {"subtitle":"Paediatrics"},
+             {"heading":"Secretary"},
+             {"info1":"Lisa Johnson"},
+             {"info2":"54029"},
+              {"item":"<hr>"},
+              {"title":"Miss Kate Blackmore"},
+             {"subtitle":"Paediatrics"},
+             {"heading":"Secretary"},
+             {"info1":"Emma Hetherington"},
+             {"info2":"54040"},
+              {"item":"<hr>"},
+            {"title":"Mr Noweed Ahmad"},
+             {"subtitle":"Otology and neuro-otology; botox"},
+             {"heading":"Secretary"},
+             {"info1":"Emma Hetherington"},
+             {"info2":"54040"},
+              {"item":"<hr>"},
+             {"title":"Mr Anirvan Banerjee"},
+             {"subtitle":"Otology & neuro-otology"},
+             {"heading":"Secretary"},
+             {"info1":"Julie Prince "},
+             {"info2":"54046"},
+              {"item":"<hr>"},
+             {"title":"Mr Shane Lester"},
+             {"subtitle":"Head & Neck; Voice"},
+             {"heading":"Secretary"},
+             {"info1":"Leslie Cronin + Mandy Brooksbank"},
+             {"info2":"54023"},
+              {"item":"<hr>"},
+             {"title":"Mr David Lowe"},
+             {"subtitle":"Rhinology"},
+             {"heading":"Secretary"},
+             {"info1":"Julie Prince"},
+             {"info2":"54046"}
+                    ]
+        },
+       { "title":"SAS doctors",
+        "data":[
+             {"title":"Satpal Singh"},
+             {"subtitle":"Rhinology,allergy"},
+             {"heading":"Secretary"},
+             {"info1":"Ann Jamieson"},
+             {"info2":"52791"},
+              {"item":"<hr>"},
+             {"title":"Shankar Ganesh"},
+             {"subtitle":""},
+             {"heading":""},
+             {"info1":""},
+             {"info2":""},
+              {"item":"<hr>"},
+             {"title":"Mo Al-Damlooji"},
+             {"subtitle":""},
+             {"heading":""},
+             {"info1":""},
+             {"info2":""}
+
+        ]
+       },
+        {"title":"Phone Numbers",
+         "data":[
+             {"title":"ENT OPD reception"},
+             {"subtitle":"54033"},
+             {"item":"<hr>"},
+
+              {"title":"ENT casualty clinic"},
+             {"subtitle":"54079"},
+             {"item":"<hr>"},
+
+             {"title":"ENT doctors office"},
+             {"subtitle":"56840"},
+             {"item":"<hr>"},
+
+             {"title":"Ward 22 (paeds surgical ward)"},
+             {"subtitle":"54522"},
+             {"item":"<hr>"},
+
+             {"title":"Ward 35 (ENT adult)"},
+             {"subtitle":"54535/56336"},
+             {"item":"<hr>"},
+
+             {"title":"Paed surgical day unit"},
+             {"subtitle":"54927/55953"},
+             {"item":"<hr>"},
+
+             {"title":"Surgical admissions unit (female)"},
+             {"subtitle":"54603"},
+             {"item":"<hr>"},
+
+             {"title":"Surgical admissions unit (male)"},
+             {"subtitle":"54602"},
+             {"item":"<hr>"},
+
+             {"title":"Theatre 19 (paediatric theatre)"},
+             {"subtitle":"55753"},
+             {"item":"<hr>"},
+
+             {"title":"Theatre 20 (ENT theatre)"},
+             {"subtitle":"55815"},
+             {"item":"<hr>"},
+
+             {"title":"Theatre 21 (day case theatre)"},
+             {"subtitle":"55272"},
+             {"item":"<hr>"},
+
+             {"title":"Theatre 22 (daycase theatre"},
+             {"subtitle":"54603"},
+             {"item":"<hr>"},
+
+             {"title":"Theatre 27 (day case theatre)"},
+             {"subtitle":"55273"},
+             {"item":"<hr>"},
+
+             {"title":"Bev Mckinstry & Sonia Hannant (waiting list)"},
+             {"subtitle":"54063"},
+             {"item":"<hr>"},
+
+             {"title":"Haematology lab"},
+             {"subtitle":"55691"},
+             {"item":"<hr>"},
+
+             {"title":"Biochemistry lab"},
+             {"subtitle":"54371"},
+             {"item":"<hr>"},
+
+             {"title":"Blood bank"},
+             {"subtitle":"52630"},
+             {"item":"<hr>"},
+
+             {"title":"Radiology"},
+             {"subtitle":"54823"},
+             {"item":"<hr>"},
+
+             {"title":"Histology"},
+             {"subtitle":"54383"},
+             {"item":"<hr>"},
+
+             {"title":"IT helpdesk"},
+             {"subtitle":"52525"},
+             {"item":"<hr>"},
+
+             {"title":"Library"},
+             {"subtitle":"54820"},
+             {"item":"<hr>"}
+
+         ]},
+        {"title": "Admininstration",
+         "data":[
+             {"info1":"You each have an inbox in the doctors office where any administrative work and memo’s will be placed. It is important that you check this on a daily basis. Please also regularly check the e-mail account for which you have given us details and respond to e-mails promptly."},
+              {"item":"<hr>"},
+             {"title":"Weekly rota/annual leave/study leave"},
+             {"info1":"The weekly rota is written by Satpal Singh and is distributed on a weekly basis (Thursday). Your timetable will include:"},
+             {"info2":"-Ward cover"},
+             {"info2":"-Casualty clinic"},
+             {"info2":"-Pre-assessment clinic"},
+             {"info2":"-Study/teaching"},
+             {"info2":"-On call"},
+               {"item":"<hr>"},
+
+             {"info1":"All annual and study leave requests should be sent to Satpal Singh who will confirm if the leave can be granted. It is important that you get together as a group and discuss leave at the beginning of the placement so that you are not all trying to take leave towards the end of the post."},
+              {"info2":"The on call rota can be found on the intranet. This is organised by Lorraine Grayson. Please contact her with any queries."},
+              {"item":"<hr>"}
+
+         ]},
+        {"title":"Your Rotas",
+         "data":[
+             {"info1":"This is the basic file"}
+         ]},
+        {"title":"Ward",
+         "data":[
+             {"title":"The two main wards for ENT patients are:"},
+
+             {"subtitle":"Ward 35-adult ward."},
+             {"info1":"This ward is shared with maxo-facial surgery and plastic surgery. There are 26 beds of which 5 are HDU beds."},
+              {"item":"<br>"},
+             {"info1":"Ward 35 has a specially equipped treatment room with a microscope. All patients requiring microsuction of the ears or other procedures should be treated in here and not taken down to out patients. It may be necessary to have a nurse/health care assistant with you to help. Please remember that they are busy and you may have to wait till they are free to assist you."},
+               {"item":"<br>"},
+             {"subtitle":"Ward 22- paediatric ward."},
+             {"info1":"This is the paediatric surgical ward where our elective and emergency patients are admitted. (If ward 22 is full patients may be admitted to ward 21)."},
+                            {"item":"<br>"},
+             {"subtitle":"Surgical admissions unit"},
+             {"info1":"Separate male and female unit. The unit accommodates the day case patients and also has a 23 hour stay facility. The majority of our adult surgical patients are admitted here.."},
+                            {"item":"<br>"},
+              {"subtitle":"Paediatric Surgical Admission unit."},
+             {"info1":"This is a day case unit only. Children who are not fit for discharge at the end of the day may be transferred to the ward for overnight observation."},
+                            {"item":"<br>"},
+             {"info2":"Due to bed pressures there are often outlying patients on other wards, particularly in the winter. It is imperative that these patients are seen EVERY DAY on the ward round."},
+             {"item":"<br>"}
+         ]},
+
+        {"title":"Ward Duties",
+         "data":[
+             {"info1":"The morning ward round starts at 0800 prompt and attendance is compulsory. At the weekend the ward round may start later."},
+             {"info2":"An evening board round takes place after clinic/theatre with the on call consultant and middle grade doctor.<br>There is a handover sheet that is stored on the PC on ward 35 and this must be regularly updated throughout the day. It is imperative that it has been updated for the morning ward round."},
+                          {"item":"<br>"},
+             {"info1":"All consultations/investigations/procedures etc must be documented in the patients notes. All documentation must be legible and all entries must be accompanied by the doctors name/date/time/designation and GMC number."},
+             {"info2":"All blood results and investigations MUST be written in the patient notes and not just on the hand over sheet."},
+             {"item":"<br>"},
+             {"info1":"Please ensure that your documentation is filed appropriately in the notes-this is your responsibility.Please ensure that all discharge summaries are completed first thing in the morning. Where it is possible to pre-empt a discharge the day before please complete the summary at this stage so that discharge is not delayed."},
+                          {"item":"<br>"},
+
+             {"info1":"Morbidity and mortality data collection is your responsibility under the guidance of Miss Blackmore’s SpR. On the handover sheet there is a tick box for complications. This must be ticked for all morbidity and mortalities and will be presented at the clinical governance meetings. It is often difficult to obtain the notes after the patient has been discharged so please record all the relevant information in the box that pops up on the handover record."}
+         ]},
+        {"title":"Education",
+         "data":[
+             {"title":"Clinical/Educational supervisors"},
+              {"item":"<hr>"},
+             {"info1":"You will each be assigned a clinical (and/or educational) supervisor for your placement in the department. It is essential that you organise an appointment to see them in the first 2 weeks of the post."},
+              {"item":"<hr>"}
+
+         ]},
+        {"title":"On Call",
+         "data":[
+              {"info1":"The first tier doctors are resident when on duty and on call. There is an on call bleep (4012) which must be carried at all times and responded to straight away."},
+                          {"item":"<br>"},
+             {"info1":"Patients may be referred from GP’s, other departments within The James Cook University Hospital or from other hospitals. It is essential that if accepting a referral from another hospital that the patient is transferred to an appropriate, safe receiving area. Any patient that is actively bleeding or has an upper airway problem must be seen in Accident and Emergency. "},
+                  {"item":"<br>"},
+             {"info1":"If you are informed by A&E that the department is busy/you are unable to see the patient in A&E yet the patient’s condition demands they are seen in A&E please escalate the referral to the on call middle grade or consultant. "},
+                  {"item":"<br>"},
+             {"info1":"There are certain presenting symptoms/signs where the middle grade should take the referral –please re-direct the referring doctor to the appropriate person. "},
+                  {"item":"<br>"},
+             {"info1":"DO NOT see any patients in the ENT department out of hours or at the weekend. This is for yours and the patient’s safety."},
+             {"info2":"A&E referrals from JCUH MUST BE RESPONDED TO/ATTENDED TO WITHIN 30 MINUTES"},
+                  {"item":"<br>"},
+             {"info1":"All patients that are admitted must have a full clerking by the ENT doctor. The patient’s regular medication must be written up by the admitting doctor and a VTE assessment MUST be undertaken and documented."},
+             {"info2":"If a patient is commenced on antibiotics duration of treatment must be documented on the cardex.The on call middle grade doctor must be informed of all admissions and it is important to keep them updated. "},
+                  {"item":"<br>"}
+         ]},
+        {"title":"Casualty Clinic",
+         "data":[
+              {"info1":"There is a daily casualty clinic that takes place in the outpatient department. This is led by the first tier doctors and the specialist nurses.<br>The clinic runs from 1000-1200 and 1400-1600 Monday to Friday. There is a nurse in the clinic to assist. "},
+                  {"item":"<hr>"},
+             {"info1":"Patients seen in the clinic are referred from GP’s, A&E and other specialities."},
+             {"bold":" IT IS NOT A WALK IN CLINIC."},
+             {"info1":"Patients self-referring should be politely informed of the policy and given advice on where they should seek help from. <br>It is essential that only appropriate cases are seen in the casualty clinic in order to maintain patient safety.  Any patients with active bleeding or upper airway problems MUST be seen in accident and emergency. "},
+                  {"item":"<hr>"},
+             {"info1":"Doctors trying to refer patients with chronic conditions should be asked to either refer through choose and book or fax a referral. This will be seen by the consultant on call (not necessarily acutely) and triaged to an appropriate outpatient clinic."},
+             {"info2":"Patients seen in the casualty clinic can have ONE REVIEW in the clinic. If they need to be seen again they must be seen in one of the assigned consultant/middle grade outpatient clinics-reception will organise.<br><br>If you require any help or advice please contact the on call middle grade doctor.Again it is important that there is legible and clear documentation for all patients attending the casualty clinic. "},
+                  {"item":"<hr>"},
+             {"bold":"THESE PATIENTS SHOULD BE SEEN URGENTLY:-"},
+             {"underline":"Ear"},
+             {"list":"Acute mastoiditis"},
+             {"list":"Seventh nerve palsy with ear sx/signs or foll head injury"},
+             {"list":"Pinna cellulitis<br>Sudden sensorineural hearing loss"},
+             {"list":"Organic/chemical foreign body ear"},
+             {"item":"<hr>"},
+             {"underline":"Nose"},
+             {"list":"Actively bleeding/packed epistaxis"},
+             {"list":"Septal haematoma"},
+             {"list":"Periorbital cellulitis"},
+             {"list":"Foreign body nose"},
+                  {"item":"<hr>"},
+             {"underline":"Throat"},
+             {"bold":"STRIDOR-MIDDLE GRADE TO TAKE THE CALL"},
+             {"list":"Post tonsillectomy bleed"},
+             {"bold":"Foreign body airway--MIDDLE GRADE TO TAKE THE CALL"},
+             {"list":"Blunt and sharp injury to neck"},
+             {"list":"Tonsillitis-unable to eat and drink"},
+             {"list":"Infected neck lump"},
+             {"list":"Quinsy/peritonsillar abscess"},
+             {"list":"Tracheostomy problems-INFORM middle grade"},
+                  {"item":"<hr>"},
+             {"underline":"General"},
+             {"list":"Food bolus obstruction"},
+             {"list":"Facial cellulitis"},
+             {"list":"Post op infections"},
+             {"item":"<hr>"},
+             {"info1":"There is further information in this booklet on how to manage some of these conditions."},
+                  {"item":"<hr>"}
+         ]},
+        {"title":"Outpatient clinics",
+         "data":[
+             {"info1":"You are encouraged to attend outpatient clinics as part of your training. If you have specific clinics you would like to attend please discuss with Satpal Singh who will incorporate it into your weekly timetable where possible."},
+             {"info2":"Please be sensible about this and ensure that everyone gets the opportunity to attend clinics."},
+             {"item":"<hr>"},
+             {"info1":"Clinics run on a daily basis usually starting at 0900 and 1400 although some clinics may start earlier. If you would like to attend a clinic please check with the clinician undertaking it beforehand (there may be trainees from other specialities or medical students sitting in). If however you find you have an unexpected spare half hour/ hour please feel free to come to clinic. There are general ENT clinics and also specialist clinics. "},
+             {"bold":"Specialist clinics include:"},
+             {"list":"-Paediatric voice, trachesotomy and drooling"},
+             {"list":"-Paediatric Cleft"},
+             {"list":"-Rhinology"},
+             {"list":"-Cochlear implant"},
+             {"list":"-Paediatric hearing loss"},
+             {"list":"-Two week wait"},
+             {"list":"-Balance disorders"},
+             {"list":"-Botox"},
+             {"list":"-Head and neck"},
+             {"list":"-Tracheostomy clinics"},
+             {"info1":"Please check the timetable in the ENT reception for when these clinics are running. "}
+         ]},
+        {"title":"Theatres",
+         "data":[
+             {"info1":"You are also encouraged to come to theatre as part of your training regardless of your future career aspirations. Being able to explain to a patient the process of tonsillectomy/grommets can be very helpful for future GP’s."},
+             {"info2":"The following theatres are used for ENT:"},
+             {"bold":"-Theatre 19-paediatric theatre"},
+             {"bold":"-Theatre 20 & 17-ENT theatre"},
+             {"bold":"-Theatre 22,21,27- day case theatres"},
+             {"item":"<hr>"},
+             {"info1":"-Main theatre sessions start at 0900 (Mr Banerjee’s list starts at 0830 on a Tuesday) and 1330."},
+             {"info2":"Day case theatre sessions start at 0800 and 1330."}
+         ]},
+        {"title":"Teaching|Research",
+         "data":[
+             {"info1":"You will be excused from your duties to attend any mandatory teaching i.e. GP teaching, foundation programme generic skills as long as there are enough doctors to cover the department in your absence. Please ensure that you discuss the dates in plenty of time with Satpal Singh."},
+             {"info2":"There is regular on the job teaching in the assigned casualty clinic teaching sessions. We also have ad hoc departmental teaching at lunch times."},
+             {"item":"<hr>"},
+             {"list":"Sit in outpatient clinics and theatre sessions will also provide valuable teaching."},
+             {"item":"<hr>"},
+             {"list":"There is a clinical governance meeting on a bi-annual basis that has compulsory attendance if you are on duty."},
+             {"item":"<hr>"},
+             {"info1":"We encourage all our first tier doctors to get involved in audit and research. Please discuss with your clinical/educational supervisor at your induction meeting. All clinical audit registration forms should be sent to Miss Blackmore."}
+         ]}
+
+    ]
+}

@@ -1,0 +1,19 @@
+<ion-view view-title="My Notes">
+  <ion-content>
+  	<div class="padding">
+  		<a href="#/app/add" class="button button-block button-royal">New Note</a>
+  	</div>
+    <ion-list>
+      <ion-item 
+                href="#/app/edit/{{note.id}}"  
+                ng-repeat="note in notes " 
+                class="item-remove-animate item-icon-right"
+                >
+        <h2>{{note.title}}</h2>
+        <p>{{note.description}}</p>
+          <ion-option-button class="button-assertive icon-left ion-trash-b"   ng-click="remove(note.id)">Delete</ion-option-button>
+          <i class="icon ion-arrow-right-b"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
