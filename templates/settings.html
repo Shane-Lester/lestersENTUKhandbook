@@ -1,49 +1,55 @@
 <ion-view view-title="Settings">
-  <ion-content>
-<div class="container">
-    <h4>Select file from your directory for upload</h4>
-    <p>Load either clinical.json or department.json</p>
-    <p>Then press Home button to see data</p>
-    <input type="file" on-read-file="showContent($fileContent)">
-    <div>{{success}}</div>
-</div>
-    <div>
-      <div class = "row">Root address for loading data:</div>
-        <div class="list">
-          <label class="item item-input">
-              {{httpLabel}}
-              <input type="text" placeholder="root data address?" ng-model="root" lowercased>
-          </label>
-            <div class= "row">
-              Specialty:/ &nbsp
-              <input class = "padding" type = "text" placeholder="specialty" ng-model = "specialty" lowercased>
-              /docs
+    <ion-content>
+        <h4>Either load your test data locally or from the web:</h4>
+        <div class="container" ng-hide="vanish=='local'">
+            <br>
+            <h4><u>Local</u></h4>
+            <h5>Select file from your directory for upload</h5>
+            <p>Load either clinical.json or department.json</p>
+            <p>Then press Home button to see data</p>
+            <input type="file" on-read-file="showContent($fileContent)">
+            <div>{{success}}</div>
+        </div>
+
+        <div class="container" ng-hide="(vanish=='web')">
+            <br>
+            <h4><u>Web</u></dir>
+            <div class = "row">Root address for loading data:</div>
+            <div class="list">
+              <label class="item item-input">
+                  {{httpLabel}}
+                  <input type="text" placeholder="root data address?" ng-model="root" lowercased>
+              </label>
+                <div class= "row">
+                      Specialty:/ &nbsp
+                  <input class = "padding" type = "text" placeholder="specialty" ng-model = "specialty" lowercased>
+                      /docs
+                </div>
+            </div>
+            <div class="padding">
+              <button id = "rootButton" type = "button" ng-click = "setRoot(root,specialty)" class="button button-block {{buttonColour}}">{{rootText}}</button>
+            </div>
+
+
+            <div class = "row">Department Data:</div>
+            <div class="row">
+              {{httpLabel}}{{root}}/{{specialty}}/docs/department.json
+            </div>
+          <div class="padding">
+            <button type="button" class="button button-block {{departmentButtonColour}}" ng-click = "loadDepartmentData()" ng-show ="rootSet">{{departmentButtonText}}</button>
+          </div>
+
+
+          <div class = "row">Clinical Data:</div>
+          <div class="row">
+              {{httpLabel}}{{root}}/{{specialty}}/docs/clinical.json
+          </div>
+          <div class="padding">
+            <button type= "button" class="button button-block {{clinicalButtonColour}}" ng-click = "loadClinicalData()" ng-show ="rootSet">{{clinicalButtonText}}</button>
           </div>
         </div>
+
         <div class="padding">
-          <button id = "rootButton" type = "button" ng-click = "setRoot(root,specialty)" class="button button-block {{buttonColour}}">{{rootText}}</button>
-        </div>
-      </div>
-
-        <div class = "row">Department Data:</div>
-        <div class="row">
-              {{httpLabel}}{{root}}/{{specialty}}/docs/department.json
-        </div>
-        <div class="padding">
-          <button type="button" class="button button-block {{departmentButtonColour}}" ng-click = "loadDepartmentData()" ng-show ="rootSet">{{departmentButtonText}}</button>
-        </div>
-
-
-        <div class = "row">Clinical Data:</div>
-        <div class="row">
-              {{httpLabel}}{{root}}/{{specialty}}/docs/clinical.json
-        </div>
-        <div class="padding">
-          <button type= "button" class="button button-block {{clinicalButtonColour}}" ng-click = "loadClinicalData()" ng-show ="rootSet">{{clinicalButtonText}}</button>
-        </div>
-
-
-      <div class="padding">
           <button type="button" class="button button-block button-assertive" ng-click="goHome()">Home</button>
         </div>
 

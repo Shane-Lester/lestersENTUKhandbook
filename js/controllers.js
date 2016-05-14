@@ -191,6 +191,7 @@ angular.module('starter.controllers', [])
       $scope.departmentButtonText = "Load Department Data";
       $scope.clinicalButtonText = "Load Clinical Data";
       $scope.httpLabel = "http://www.";
+
       newData = Data.getSettings();
       if (newData) {
         $scope.root = newData.root;
@@ -208,7 +209,11 @@ angular.module('starter.controllers', [])
     var data = JSON.parse($fileContent);
     if(data)
     {
-      console.log('found data');
+      MakeVanish('web');
+      // console.log('found data');
+      // $scope.vanish = "web";
+      console.log('vanish web');
+
       if (data.department){
           console.log('valid JSON');
           state = 'department';
@@ -217,20 +222,20 @@ angular.module('starter.controllers', [])
         }
         else if(data.clinical){
           console.log('valid JSON');
-          state = 'clinical'; 
+          state = 'clinical';
           Data.saveClinicalData(data);
           $scope.success ="Loaded clinical data - press HOME";
-    
+
         }
         else{
           return;
         }
-    
+
           $state.go($state.current, {}, {
             reload: true
           });
-    
-        
+
+
       }
     else{
       console.log('no key');
@@ -239,9 +244,16 @@ angular.module('starter.controllers', [])
     // $scope.content = $fileContent;
     };
 
+    MakeVanish = function(source){
+      console.log('vanishing' + source);
+      $scope.vanish= source;
+    }
+
 
     $scope.setRoot = function(root, specialty) {
-      console.log("setRoot function");
+      // console.log("setRoot function");
+       MakeVanish('local');
+
       if (!root || !specialty) {
         console.log('error');
         return false;
@@ -311,6 +323,7 @@ angular.module('starter.controllers', [])
     }
 
     $scope.goHome = function() {
+      $scope.vanish = "none";
       $ionicHistory.nextViewOptions({
         disableBack: true
       });

@@ -22,10 +22,18 @@ body{
     width:100% !important;
 }
 
+
+
 .branding{
-    max-height:300px;
+    height:100% ;
+    padding-top: 200px;
+    top: 20% !important ;
    margin:0 auto;
     text-align: center
+}
+
+.branding img{
+  height: 600px;
 }
 
 .tagline{
